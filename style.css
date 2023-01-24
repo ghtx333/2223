@@ -3,7 +3,7 @@
   src: url('/fonts/Fredoka-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: swap
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: url('/fonts/Fredoka-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+  font-display: swap
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   src: url('Fredoka-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: swap
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   src: url('/fonts/Fredoka-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: swap
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   src: url('/fonts/Fredoka-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  font-display: swap
 }
 
 * {
@@ -45,25 +45,23 @@
   border: 0;
   outline: 0;
   text-decoration: none;
-  object-fit: cover;
+  object-fit: cover
 }
 
 body, button {
   color: #fff;
   font-size: 18px;
-  font-family: fredoka, system-ui, -apple-system, sans-serif;
-
+  font-family: fredoka, system-ui, -apple-system, sans-serif
 }
 
 a {
   color: #fff;
-  font-size: 18px;
+  font-size: 18px
 }
-
 
 header {
   background-image: url(/img/Muster_Hintergrund_header.jpg);
-  background-size: contain;
+  background-size: contain
 }
 
 header nav {
@@ -71,33 +69,31 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-
+  padding: 20px 0
 }
 
 header .logo {
-  height: 64px;
-
+  height: 64px
 }
 
 header nav div {
-  width: 100%;
+  width: 100%
 }
 
 .menu_links {
   display: flex;
-  gap: 20px;
+  gap: 20px
 }
 
 .menu_links a {
-  color: #fff;
+  color: #fff
 }
 
 .phone_number {
   display: flex;
   gap: 10px;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-end
 }
 
 .phone_number div {
@@ -105,23 +101,23 @@ header nav div {
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
-  height: 30px;
+  height: 30px
 }
 
 .phone_number img {
-  height: 25px;
+  height: 25px
 }
 
 .phone_number a {
   font-size: 26px;
   color: #77AC27;
-  font-weight: 600;
+  font-weight: 600
 }
 
 .wrapper {
   max-width: 1260px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 20px
 }
 
 header main {
@@ -130,7 +126,7 @@ header main {
   align-items: center;
   gap: 40px;
   padding: 40px 0;
-  position: relative;
+  position: relative
 }
 
 header main .header_gericht button {
@@ -140,7 +136,7 @@ header main .header_gericht button {
   border-radius: 9999px;
   color: #AA3124;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 500
 }
 
 header main .header_gericht {
@@ -151,11 +147,11 @@ header main .header_gericht {
   justify-content: center;
   padding-bottom: 25px;
   background-image: url(/img/header_gericht.png);
-  background-size: contain;
+  background-size: contain
 }
 
 header main .header_gericht img {
-  width: 100%;
+  width: 100%
 }
 
 header main .price {
@@ -168,25 +164,17 @@ header main .price {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 header main .price p {
-  font-weight: 500;
-}
-
-header main .price .price_title {
-  font-size: 24px;
-}
-
-header main .price .price_euro {
-  font-size: 32px;
+  font-weight: 500
 }
 
 .description {
   padding-top: 80px;
   padding-bottom: 30px;
-  background-color: #F6E9E7;
+  background-color: #F6E9E7
 }
 
 .description .wrapper {
@@ -194,7 +182,7 @@ header main .price .price_euro {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px
 }
 
 .description p {
@@ -203,18 +191,18 @@ header main .price .price_euro {
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  text-align: center;
+  text-align: center
 }
 
 .description .title {
-  font-size: 22px;
+  font-size: 22px
 }
 
 .Mittagsbuffet {
   background-image: url(/img/Muster_Hintergrund_Öffnungszeiten.jpg);
   background-size: contain;
   padding-top: 230px;
-  padding-bottom: 40px;
+  padding-bottom: 40px
 }
 
 .Mittagsbuffet div {
@@ -227,7 +215,7 @@ header main .price .price_euro {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 10px
 }
 
 .Mittagsbuffet .price {
@@ -241,27 +229,13 @@ header main .price .price_euro {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-.Mittagsbuffet .price .price_euro {
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.Mittagsbuffet .title {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.Mittagsbuffet p span {
-  font-weight: 600;
+  flex-direction: column
 }
 
 .Speisekarte {
   background-color: #FF9144;
   position: relative;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 .Speisekarte::after {
@@ -273,7 +247,7 @@ header main .price .price_euro {
   height: 500px;
   position: absolute;
   right: -150px;
-  top: 50px;
+  top: 50px
 }
 
 .Speisekarte::before {
@@ -285,7 +259,7 @@ header main .price .price_euro {
   height: 500px;
   position: absolute;
   left: -150px;
-  bottom: 250px;
+  bottom: 250px
 }
 
 .Speisekarte .wrapper {
@@ -294,33 +268,33 @@ header main .price .price_euro {
   align-items: center;
   gap: 30px;
   padding-top: 70px;
-  padding-bottom: 140px;
+  padding-bottom: 140px
 }
 
 .Speisekarte .Haken {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 30px
 }
 
 .Speisekarte .Haken p {
   color: #AA3124;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 600
 }
 
 .Speisekarte .menu_slider {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 30px
 }
 
 .Speisekarte .menu_slider .menu_img {
-  width: 660px;
+  width: 660px
 }
 
 .Speisekarte .menu_slider .arrow_left {
-  transform: rotateZ(180deg);
+  transform: rotateZ(180deg)
 }
 
 .Speisekarte .button {
@@ -329,22 +303,22 @@ header main .price .price_euro {
   color: #AA3124;
   border: 3px solid #AA3124;
   border-radius: 9999px;
-  padding: 10px 20px;
+  padding: 10px 20px
 }
 
-.Galerie {
+.gallery {
   display: flex;
-  gap: 6px;
+  gap: 6px
 }
 
-.Galerie img {
+.gallery img {
   width: 100%;
-  height: 270px;
+  height: 270px
 }
 
 footer {
   background-color: #BF172F;
-  padding: 40px 0;
+  padding: 40px 0
 }
 
 footer .wrapper {
@@ -352,59 +326,66 @@ footer .wrapper {
   flex-direction: column;
   align-items: center;
   line-height: 29px;
-  gap: 30px;
+  gap: 30px
 }
 
-.medium {
-  font-weight: 500;
-}
-
-.semi_bold {
-  font-weight: 600;
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.size_14 {
-  font-size: 14px;
-}
-
-.size_20 {
-  font-size: 20px;
-}
-
-.size_22 {
-  font-size: 20px;
-}
-
-.flex{
+footer .footer__contacts {
   display: flex;
+  gap: 80px
 }
-.space_80{
-  gap: 80px;
-}
-footer .footer__contacts{
-  display: flex;
-  gap: 80px;
-}
-footer .footer__contacts .left_block{
+
+footer .footer__contacts .left_block {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 20px;
+  gap: 20px
 }
-footer .footer__contacts .left_block .social img{
-  margin-left: 10px;
+
+footer .footer__contacts .left_block .social img {
+  margin-left: 10px
 }
-footer .footer__contacts .left_block p{
-  text-align: right;
+
+footer .footer__contacts .left_block p {
+  text-align: right
 }
-footer .payment{
-  text-align: center;
+
+footer .payment {
+  text-align: center
 }
-footer .bottom_field{
+
+footer .bottom_field {
   display: flex;
-  gap: 80px;
+  gap: 80px
+}
+
+.medium {
+  font-weight: 500
+}
+
+.semi_bold {
+  font-weight: 600
+}
+
+.bold {
+  font-weight: 700
+}
+
+.size_14 {
+  font-size: 14px
+}
+
+.size_20 {
+  font-size: 20px
+}
+
+.size_22 {
+  font-size: 22px
+}
+
+.size_24 {
+  font-size: 24px
+}
+
+.size_32 {
+  font-size: 32px
 }
