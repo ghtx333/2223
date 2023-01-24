@@ -183,13 +183,13 @@ header main .price .price_euro {
   font-size: 32px;
 }
 
-.Namasté {
+.description {
   padding-top: 80px;
   padding-bottom: 30px;
   background-color: #F6E9E7;
 }
 
-.Namasté .wrapper {
+.description .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +197,7 @@ header main .price .price_euro {
   gap: 20px;
 }
 
-.Namasté p {
+.description p {
   color: #BF172F;
   width: 850px;
   font-weight: 500;
@@ -206,7 +206,7 @@ header main .price .price_euro {
   text-align: center;
 }
 
-.Namasté .title {
+.description .title {
   font-size: 22px;
 }
 
@@ -385,20 +385,20 @@ footer .wrapper {
 .space_80{
   gap: 80px;
 }
-footer .details{
+footer .footer__contacts{
   display: flex;
   gap: 80px;
 }
-footer .details .left_block{
+footer .footer__contacts .left_block{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 20px;
 }
-footer .details .left_block .social img{
+footer .footer__contacts .left_block .social img{
   margin-left: 10px;
 }
-footer .details .left_block p{
+footer .footer__contacts .left_block p{
   text-align: right;
 }
 footer .payment{
